@@ -66,6 +66,10 @@ By exploiting LFI, the adversary extracted a private SSH key from the web server
 - Tell Snort to look for matching hex code of the FILE_DATA
 - depth:35 (Tell Snort to look at 35 bytes of data - that is how long the hex code is)
 
+![Screenshot 2025-02-21 172459 (1)](https://github.com/user-attachments/assets/068565ba-7bbd-4730-abb5-41cd461e127b)
+- ONE ALERT FOUND!
+
+
 
 
 
