@@ -1,7 +1,7 @@
 # Custom-Snort-Detection Rules
 
 ## Objective
-In this PCAP, the SOC team suspects that an adversary may have gained unauthorized access to on of their web servers by exploiting a Local File Inclusion (LFI). Also, multiple DLP alerts were activated, raising concerns that sensitive files may have been extracted. This challenge wants me to create custom detection rules for each different scenarios. 
+In this PCAP, the SOC team suspects that an adversary may have gained unauthorized access to one of their web servers by exploiting a Local File Inclusion (LFI). Also, multiple DLP alerts were activated, raising concerns that sensitive files may have been extracted. This challenge wants me to create custom detection rules for each different scenarios. 
 
 There are no walkthrough videos or vlogs to verify if I'm doing it correctly—just a list of questions that I have to solve on my own.
 
