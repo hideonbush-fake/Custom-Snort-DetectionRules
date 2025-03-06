@@ -18,7 +18,7 @@ There are no walkthrough videos or vlogs to verify if I'm doing it correctly—j
 - Snorpy 
 
 ## RULE 1
-The web server's login page returns an HTTP 401 status code when there is a failed login attempt. Write a rule to detect where a single IP address generates 10 failed loging attempts within a 30 second window.
+The web server's login page returns an HTTP 401 status code when there is a failed login attempt. Write a rule to detect where a single IP address generates 10 failed login attempts within a 30 second window.
 
 ![Screenshot 2025-02-21 165436](https://github.com/user-attachments/assets/3c5a138e-7e07-4a01-9d40-cd2ab1bdba56)
 ![Screenshot 2025-02-21 192409](https://github.com/user-attachments/assets/acfc83d4-4ae4-4437-9bbf-59fd3ccc6634)
