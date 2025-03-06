@@ -25,7 +25,7 @@ The web server's login page returns an HTTP 401 status code when there is a fail
 
 - First, I used Wireshark to identify where the HTTP 401 status code appeared in the traffic
 - (sourceIP) (sourcePORT) = any 80 (I'm looking at the HTTP response header so the source port should be 80)
-- http_stat_code (want to tell Snort to look at the HTTP STAT CODE to find the 401 status code)
+- http_stat_code (want to tell Snort to look at the HTTP STAT CODE inside the HTTP RESPONSE CODE find the 401 status code)
 
 ![Screenshot 2025-02-21 165237](https://github.com/user-attachments/assets/8441d25b-2688-4bd3-bb3f-f72f2b01450d)
 ![Screenshot 2025-02-21 165245](https://github.com/user-attachments/assets/bb179292-bdb3-42ca-a4a9-80e376fc8cb6)
